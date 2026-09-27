@@ -1,5 +1,8 @@
 public class CiftSayilarinKupleri {
     public static void main(String[] args) {
+
+         int toplam = 0;
+
         for (int i = 1; i <= 20; i++) { // Çift sayıları 1'den 20'ye kadar kontrol ediyoruz
             if (i % 2 == 0) {
                 toplam += (i * i * i); // Çift sayının küpünü toplama ekliyoruz
